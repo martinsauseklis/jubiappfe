@@ -1,0 +1,16 @@
+#jubileja {
+    height: 500px;
+    border-radius: 15px;
+}
+
+body {
+    background-image: url('./img/jubilejas.jpg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    justify-self: center;
+    color: brown
+}
