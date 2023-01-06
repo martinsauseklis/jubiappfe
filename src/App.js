@@ -23,7 +23,7 @@ function App() {
   const [state, setState] = useState(initialState);
   useEffect(() => {
     const data = async () => {
-      const fetched = await fetch(process.env.API_URL);
+      const fetched = await fetch(process.env.REACT_APP_API_URL);
       const result = await fetched.text();
       let json = JSON.parse(result);
       if (localStorage.getItem('prices')) {
